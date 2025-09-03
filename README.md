@@ -8,11 +8,11 @@ In professional environments, whether in software engineering or other industrie
 
 ## Why We Use Git
 - **History:** Git records the evolution of a project. Each change is saved in a way that can be revisited or restored.  
-- **Clarity:** Descriptive commit messages explain *why* changes were made.  
+- **Clarity:** Descriptive messages -- called **commit messages** -- explain *why* changes were made.
 - **Collaboration:** Multiple people can work on the same project at once, and Git helps manage how their changes fit together.
 
 ## What Gets Stored in a Repository
-A repository (often called a **repo**) is more than just a folder of files. It contains:  
+A repository (often called a **repo** for short) is more than just a folder of files. It contains:  
 - **Project files:** Code, documents, images, or anything else related to the project.  
 - **Commit history:** Every saved change, along with the author, date, and message.  
 - **Metadata:** Extra information Git uses to manage the project (such as commit IDs and references to contributors).  
@@ -21,7 +21,7 @@ Think of a repository as both the **current version of the project** *and* a **t
 
 ## Where Work Is Stored
 - **Remote Repository:** Stored in the cloud on GitHub’s servers. This is the version everyone can see and use.  
-- **Local Copy (later):** Developers often clone a repo to their own computer to work offline, then sync changes back to the remote. For now, we focus on the version stored directly on GitHub.
+- **Local Copy:** Developers often copy the contents of a repo to their own computer to work offline in a step called *cloning*. They then sync changes back to the remote. For now, we focus only on the version stored directly on GitHub.
 
 ## Commit Messages
 A **commit** is a snapshot of your work at a specific point in time. Every commit requires a **commit message**.  
@@ -31,7 +31,7 @@ A **commit** is a snapshot of your work at a specific point in time. Every commi
 
 **Good Examples:**  
 - `Added introduction section to README`  
-- `Fixed typo in function description`  
+- `Fixed typo in function description`
 
 **Poor Examples:**  
 - `update`  
