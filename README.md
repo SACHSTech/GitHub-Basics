@@ -2,6 +2,10 @@
 
 Git is a **Version Control System (VCS)**. A VCS helps track changes made to files over time, so you can revisit earlier versions, understand what changed, and collaborate with others without losing work. GitHub is a cloud service that hosts Git repositories and makes them accessible anywhere with an internet connection.
 
+In this course, we will use Git extensively. Our goal is to show that coding projects are built up over time through small, meaningful steps. Git provides a **paper trail** that proves the work is authentic and demonstrates how it was developed. This paper trail communicates **gradual progress**, **effort**, and **intent**. 
+
+In professional environments, whether in software engineering or other industries, this kind of communication is essential: it shows what work was done, when it was done, and by whom. It’s the difference between merely **saying you did the work** versus providing **evidence that you actually did the work**. This is the kind of evidence people depend on to collaborate effectively and, ultimately, to get paid 💰.
+
 ## Why We Use Git
 - **History:** Git records the evolution of a project. Each change is saved in a way that can be revisited or restored.  
 - **Clarity:** Descriptive commit messages explain *why* changes were made.  
